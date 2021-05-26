@@ -1,7 +1,6 @@
 ---
 title: "About me"
 date: 2021-05-26T16:49:39+05:30
-draft: true
 ---
 
 Hello,
