@@ -1,10 +1,10 @@
-baseURL = "https://np99.me"
+baseURL = "https://np99.me/"
 languageCode = "en-us"
 title = "NP99 a.k.a Nikhil Patel"
 
 theme = "cactus"
 copyright = "Nikhil Patel"
-disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
+disqusShortname = "np99-me" # Used when comments is enabled. Cactus will use site title if not set
 
 # googleAnalytics = "UA-1234-5"
 # summaryLength = 2
@@ -16,7 +16,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Writings"
+name = "All posts"
 url = "/posts"
 weight = 2
 
@@ -45,8 +45,7 @@ weight = 4
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
 
   # Home page settings
-  #description = "Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."
-  description = "A collection of writings on , sometimes unrelated, topics."
+  description = "A collection of writings on programming, interesting discoveries and random musings."
   
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
@@ -62,7 +61,7 @@ weight = 4
   showReadTime = true # default
 
   [params.comments]
-    enabled = false # default
+    enabled = true # default false
     engine = "disqus" # more supported engines will be added.
 
   # the value of name should be an valid font awesome icon name (brands type)
